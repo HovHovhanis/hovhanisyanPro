@@ -1,0 +1,10 @@
+.nav-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+    top: 30px;
+    right: 25px;
+    transition: .4s linear;
+}

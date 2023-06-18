@@ -1,0 +1,58 @@
+.button {
+    background-color: #7B61FF;
+    border-radius: 12px;
+    color: #fff;
+
+    transition: background-color .2s linear;
+} 
+.button:hover {
+    background-color: #5940d8;
+}
+
+.button-huge {
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-huge {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+.button--serach {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+} 
+
+/* Button More */
+
+.button-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 44px;
+    background-color: #f6f4ff;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 16px;
+    color: #5743C7;
+    transition: .2s linear;
+}
+.button-more:hover{
+    background-color: #b3a6f5;
+}
+
